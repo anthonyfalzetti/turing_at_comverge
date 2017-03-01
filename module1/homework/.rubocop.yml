@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - 'Guardfile'
+
+
+# Enforce the method used for string formatting.
+Style/FormatString:
+  EnforcedStyle: sprintf
+  SupportedStyles:
+    - format
+    - sprintf
+    - percent
