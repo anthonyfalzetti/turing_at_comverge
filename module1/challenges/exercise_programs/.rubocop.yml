@@ -1,0 +1,14 @@
+AllCops:
+  Exclude:
+    - 'Guardfile'
+  TargetRubyVersion: 2.4
+# Enforce the method used for string formatting.
+Style/FormatString:
+  EnforcedStyle: sprintf
+  SupportedStyles:
+    - format
+    - sprintf
+    - percent
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
