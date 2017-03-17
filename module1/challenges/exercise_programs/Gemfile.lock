@@ -56,6 +56,7 @@ PLATFORMS
 
 DEPENDENCIES
   guard-rubocop!
+  pry!
 
 BUNDLED WITH
    1.14.3
